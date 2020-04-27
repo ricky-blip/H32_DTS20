@@ -7,6 +7,200 @@ a {
   text-decoration: none;
 }
 
+/* THIS IS THE STYLING FOR HEADER PART */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+	position: fixed;
+	top: 0;
+  	z-index: 10;
+}
+
+body {
+	font-family: "Century Gothic";
+
+	margin: 0;
+}
+
+
+a {
+
+	text-decoration: none;
+
+}
+
+
+
+.header-left {
+
+	float: left;
+
+}
+
+.header-right {
+
+	float: right;
+
+	transition: all 0.5s;
+
+	margin-right: 0px;
+
+}
+
+.menu-icon {
+
+  color: white;
+
+  float: right;
+
+  width:  25px;
+
+  padding: 18px;
+
+  display: none;
+
+  margin-right: 3px;
+
+}
+
+.header-right:hover {
+
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+	width: 50px;
+
+	margin-top: 7px;
+
+	opacity: 0.6;
+
+	padding-left: 6px;
+}
+
+.header-right a {
+
+	line-height: 65px;
+
+	float: left;
+
+	padding-left: 25px;
+
+	padding-right: 25px;
+
+	color: white;
+
+	display: block;
+
+}
+
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	background-image: url(bgr.jpg);
+	background-color: (255, 255, 255, 0.8);
+}
+
+.container2 {
+	width: 800px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.top-wrapper h1 {
+	opacity: 1;
+	font-size: 65px;
+	letter-spacing: 5px;
+	margin-bottom: 2px;
+	margin-right: 30px;
+	background-color: #e43b00;
+	display: inline-block;
+	border-radius: 0px;
+	padding: 15px;
+}
+
+.top-wrapper h2 {
+	opacity: 1;
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+
+.top-wrapper p {
+	padding-left: 10px;
+	padding-right: 80px;
+	opacity: 0.7;
+	margin-bottom: 3px;
+	padding-top: 10px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.btn-wrapper {
+	margin: 20px 20px;
+	padding-top: 15px;
+	border-width: 50px;
+}
+
+.btn-wrapper p {
+	margin: 5px 0;
+}
+
+.signup {
+	background-color: #239b76;
+	cursor: pointer;
+	box-shadow: 0 7px #1a7940;
+}
+
+.signup:active {
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+
+.facebook {
+	background-color: #3b5998;
+	margin-left: 10px;
+	cursor: pointer;
+	box-shadow: 0 7px #1a7940;
+}
+
+.facebook:active {
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+
+.twitter {
+	background-color: #55acee;
+	cursor: pointer;
+	box-shadow: 0 7px #1a7940;
+}
+
+.twitter:active {
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+
+.btn {
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+
 /* THIS IS THE BEGINNING OF STYLING FOR THE EKSTRA-1 PART. */
 * {
   box-sizing:border-box;
