@@ -535,20 +535,4 @@ footer
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-@media (max-width: 880px) 
-{ 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right
-	{
-		
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
- 
-	.footer-distributed .footer-center i
-	{
-		margin-left: 0;
-	}
-}
+
