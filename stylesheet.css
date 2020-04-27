@@ -1,3 +1,175 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* THIS IS THE BEGINNING OF STYLING FOR THE EKSTRA-1 PART. */
+* {
+  box-sizing:border-box;
+}
+
+.ekstra-1 {
+  margin:0 auto;
+}
+
+.heading {
+/*  float:left;  */
+  margin:0px 0px 10px 30px;
+}
+
+.heading li {
+  margin:0px 0px 0px 45px;
+  color:#565BFF;
+  font-size:18px;
+  padding-bottom:2px;
+}
+
+.heading img {
+  margin:0 auto;
+}
+
+.container {
+  height:616px;
+  width:100%;
+  background-color:#fff; 
+  border:2px solid #D1DDFF; 
+}
+
+.flex-list {
+  display:flex;
+}
+
+/*.part-satu li{
+  float:left;
+} */
+
+.container2 {
+  background-color:#8792FF;
+  height:550px;
+  width:100%;
+}
+
+.items img {
+  border-radius:80px; 
+  opacity:1;
+}
+
+.items img:hover {
+  opacity:0.9;
+}
+
+
+.container h2 {
+  padding-bottom:20px;
+}
+
+.btn-download {
+  float:right; 
+  padding:180px 0px 0px 50px;
+}
+
+.img-satu {
+  height:220px;
+  width:250px;
+  margin-top:200px; 
+  padding:15px 20px 0px 0px;
+/*  position:absolute; 
+  top:90px;
+  right:380px; */
+}
+
+.btn-download p {
+  padding: 2px 0; 
+  text-align:center;
+}
+
+.btn-download h3 {
+  margin-left:15px;
+}
+
+.btn-download a {
+  margin-right:40px; 
+  border-radius:20px;
+}
+
+.desktop {
+  background-color: #239b76;
+}
+
+.android {
+  background-color: #3b5998; 
+}
+
+
+.btn {
+  padding: 15px 40px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px #1a7940; 
+/*  position:relative; */
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Tambahkan CSS untuk btn ketika diklik */
+.btn:active {
+  box-shadow:none;
+/*  position:relative;*/
+  top:5px;
+}
+
+.ekstra1-part2 {
+/*  height: 500px; */
+  padding-bottom: 80px;
+  background-color:#000;
+  text-align: center;
+}
+
+.part-dua {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.part-dua h2 {
+  font-weight: normal;
+  color:#000;
+  padding-bottom:35px;
+}
+
+.items {
+  float: left;
+  width: 25%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #000;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.clear {
+  clear:left;
+} 
+/* THIS IS THE LAST PART FOR STYLING THE EKSTRA-1 PART. */
+
+/* INI STYLE UNTUK BAGIAN FOOTER */
+
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 *{
