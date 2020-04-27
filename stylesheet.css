@@ -174,7 +174,7 @@ a {
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 footer
 {
-	
+	position: fixed;
 	bottom: 0;
 }
 
