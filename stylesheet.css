@@ -387,7 +387,7 @@ footer
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 50px 50px 60px 50px;
+	padding: 30px 50px 60px 50px;
 	margin-top: 80px;
 }
 
@@ -535,4 +535,19 @@ footer
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+ 
+}
