@@ -10,7 +10,8 @@ a {
 /* THIS IS THE BEGINNING OF STYLING FOR THE EKSTRA-1 PART. */
 * {
   box-sizing:border-box;
-	
+	padding:0;
+	margin:0;
 }
 
 .ekstra-1 {
